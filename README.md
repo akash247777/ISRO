@@ -37,3 +37,35 @@ curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" 
 
 
 choices[0].message.content
+
+
+
+
+
+curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" \
+-H "Authorization: Bearer AQ.Ab8RN6JDiNZgpOFPMmcpZAiOQEMf2Vsrje7uPgdauNtLJqf5" \
+-H "Content-Type: application/json" \
+-d '{
+  "model": "gemini-3.5-flash-lite",
+  "messages": [
+    {
+      "role": "system",
+      "content": "help for interview"
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "{{TEXT}}"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "data:image/png;base64,{{IMAGE}}"
+          }
+        }
+      ]
+    }
+  ]
+}'
