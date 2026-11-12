@@ -69,3 +69,8 @@ curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" 
     }
   ]
 }'
+
+
+
+
+https://drive.google.com/file/d/1nvvIKz1CnB1tsfgpZq4MBvgkvCyv2V_Z/view?usp=sharing
