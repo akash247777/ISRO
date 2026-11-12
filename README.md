@@ -43,7 +43,7 @@ choices[0].message.content
 
 
 curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" \
--H "Authorization: Bearer AQ.Ab8RN6JDiNZgpOFPMmcpZAiOQEMf2Vsrje7uPgdauNtLJqf5" \
+-H "Authorization: Bearer AQ.Ab8RN6JDiNZgpOFPMmcpZAiOQEMf2Vsrje7uPgdauNtLJqf5" \ kg
 -H "Content-Type: application/json" \
 -d '{
   "model": "gemini-3.5-flash-lite",
