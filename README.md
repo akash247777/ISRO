@@ -8,7 +8,7 @@
 
 
 curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" \
--H "Authorization: Bearer AIzaSyDtxPMEsk6qaN0c0dTb25hbNQcKLpqoS" \
+-H "Authorization: Bearer AIzaSyDtxPMEsk6qaN0c0dTb25hbNQcKLpqoS" \  vw
 -H "Content-Type: application/json" \
 -d '{
   "model": "gemini-2.5-flash-lite",
@@ -74,3 +74,5 @@ curl "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions" 
 
 
 https://drive.google.com/file/d/1nvvIKz1CnB1tsfgpZq4MBvgkvCyv2V_Z/view?usp=sharing
+
+https://drive.google.com/file/d/14VUgvy0qplcfvORjn0zi0uRcZxVoxVmf/view?usp=sharing  (Akash S G)
